@@ -1,10 +1,11 @@
 import logo from './assets/new.png';
 import './App.css';
-
+import Animate from './components/animatehead'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Animate/>
+      {/* <header className="App-header">
         <img src={logo} className="" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +18,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
