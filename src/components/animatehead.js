@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const ExampleComponent = () => {
   return (
-    <TypeAnimation
+    <TypeAnimation className="headstyle"
       sequence={[
         // Same substring at the start will only be typed out once, initially
         'Web Designer ',
@@ -17,7 +17,7 @@ const ExampleComponent = () => {
       ]}
       wrapper="span"
       speed={50}
-      style={{ fontSize: '2em', display: 'inline-block' }}
+      style={{ fontSize: '2.5rem', display: 'inline-block', color:'white' }}
       repeat={Infinity}
     />
   );
