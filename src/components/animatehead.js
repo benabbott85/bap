@@ -7,9 +7,9 @@ const ExampleComponent = () => {
     <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-        'Web Designer |',
+        'Web Designer ',
         3000, // wait 1s before replacing "Mice" with "Hamsters"
-        'UI Designer |',
+        'UI Designer ',
         3000,
         'Project Manager',
      
