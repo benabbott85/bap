@@ -2,12 +2,14 @@ import logo from './assets/new.png';
 import './App.css';
 import Animate from './components/header'
 import Projects from './components/projects'
+import Timeline from './components/timeline'
 function App() {
   return (
     <div className="App">
        <h1 class="row justify-content-start me"><img src={logo} className="me" alt="logo" /></h1>
       <Animate/>
       <Projects/>
+      <Timeline/>
       {/* <header className="App-header">
         <img src={logo} className="" alt="logo" />
         <p>

@@ -46,13 +46,41 @@ color:white!important
 }
 
 .testing{
-  box-shadow: 5px 5px 5px 5px #219cee
+  box-shadow: 5px 5px 5px 5px #219cee;
+  
 }
 
 .testing2{
-  box-shadow: 5px 5px 5px 5px #000305
+  box-shadow: 5px 5px 5px 5px #000305;
+  
 }
 
+.testing3{
+  box-shadow: 5px 5px 5px 5px white;
+  
+}
+
+.vertical-timeline-element-content-arrow{
+  display:none
+}
+
+.vertical-timeline-element-date{
+  font-weight:bolder!important
+}
+
+
+.career{
+  margin-top: 75px;
+}
+.design{
+  margin-top:25px;
+  color:white;
+  padding-bottom: 25px;
+}
+
+.break{
+  margin-top:25px;
+}
 
 .ctoverlay{
   padding:0.5rem;

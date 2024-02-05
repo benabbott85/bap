@@ -9,7 +9,7 @@ const ExampleComponent = () => {
         // Same substring at the start will only be typed out once, initially
         'Web Designer ',
         3000, // wait 1s before replacing "Mice" with "Hamsters"
-        'UI Designer ',
+        'UX Designer ',
         3000,
         'Project Manager',
      
