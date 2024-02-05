@@ -45,6 +45,45 @@ body{
 color:white!important
 }
 
+.testing{
+  box-shadow: 5px 5px 5px 5px #219cee
+}
+
+.testing2{
+  box-shadow: 5px 5px 5px 5px #000305
+}
+
+
+.ctoverlay{
+  padding:0.5rem;
+  background: black;
+  color:white!important;
+  margin-top:100px;
+}
+
+.sitebtn{
+  background: transparent;
+  color:white;
+  border: solid 2px white;
+  border-radius: 5px;
+}
+
+
+
+
+
+/* .testing{
+  font-weight: bold;
+  color: red;
+  opacity:0.4;
+  /* cursor:pointer; */
+  /* margin-top:40px; */
+/* } */
+/* .testing:hover{
+  opacity:1;
+  color: transparent!important;
+} */ */
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
