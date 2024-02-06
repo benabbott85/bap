@@ -3,6 +3,7 @@ import './App.css';
 import Animate from './components/header'
 import Projects from './components/projects'
 import Timeline from './components/timeline'
+import About from './components/about'
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ function App() {
       <Animate/>
       <Projects/>
       <Timeline/>
+      <About/>
       {/* <header className="App-header">
         <img src={logo} className="" alt="logo" />
         <p>

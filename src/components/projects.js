@@ -13,8 +13,8 @@ function Projects (){
 <h2 className="design">My Design Work</h2>
 
         <Container>
-        <Row lg="3">
-            <Col>
+        <Row >
+            <Col lg={4}>
         <div>
             <div className="testing">
   <Card inverse>
@@ -49,7 +49,7 @@ function Projects (){
 </div>
 </Col>
 {/* <Col></Col> */}
-<Col >
+<Col lg={4}>
         <div className="testing2">
   <Card inverse>
     <CardImg
@@ -79,7 +79,7 @@ function Projects (){
  
 </div>
 </Col>
-<Col>
+<Col lg={4}>
         <div>
             <div className="testing3">
   <Card inverse>
@@ -115,8 +115,8 @@ function Projects (){
 </Col>
 </Row>
 <div className="break"></div>
-<Row lg="3">
-            <Col>
+<Row >
+            <Col lg={4}>
         <div>
             <div className="testing">
   <Card inverse>
@@ -151,7 +151,7 @@ function Projects (){
 </div>
 </Col>
 
-<Col >
+<Col lg={4}>
         <div className="testing2">
   <Card inverse>
     <CardImg
@@ -181,7 +181,7 @@ function Projects (){
  
 </div>
 </Col>
-<Col >
+<Col lg={4}>
         <div className="testing3">
   <Card inverse>
     <CardImg

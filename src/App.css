@@ -68,7 +68,15 @@ color:white!important
   font-weight:bolder!important
 }
 
+.mypic{
+  height: 350px;
+  width: 350px;
+ 
+}
 
+.abouttext{
+  align-items:center
+}
 .career{
   margin-top: 75px;
 }

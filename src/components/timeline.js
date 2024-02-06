@@ -1,7 +1,7 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FaBriefcase, FaSchool } from "react-icons/fa";
-
+import { IoSchoolOutline } from "react-icons/io5"
 function timeline(){
     return(
         <>
@@ -89,7 +89,7 @@ function timeline(){
     className="vertical-timeline-element--education"
     contentStyle={{  background: '#000305', color: '#fff', backgroundCover: 'cover' }}
     date="2006 - 2010"
-    iconStyle={{  color: '#fff' }}
+    iconStyle={{ color: '#fff' }}
     icon={<FaSchool />}
   >
     <h4 className="vertical-timeline-element-title">Bachelor of Arts in Communication</h4>
