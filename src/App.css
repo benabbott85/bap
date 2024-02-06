@@ -73,7 +73,10 @@ color:white!important
   width: 350px;
  
 }
-
+.footalign{
+  text-align:center;
+  padding: 45px;
+}
 .abouttext{
   align-items:center
 }
@@ -85,7 +88,15 @@ color:white!important
   color:white;
   padding-bottom: 25px;
 }
-
+.linkedin{
+  color:white!important;
+  width: 245px!important;;
+}
+.envelope{
+  color:white;
+  margin-left:115px;
+  
+}
 .break{
   margin-top:25px;
 }
