@@ -136,7 +136,7 @@ color:white!important
 
 .ctoverlay{
   padding:0.5rem;
-  background: black;
+  /* background: black; */
   color:white!important;
   margin-top:255px;
   width:400px;
@@ -147,6 +147,7 @@ color:white!important
   color:white;
   border: solid 2px white;
   border-radius: 5px;
+  width: 250px;
 }
 
 
@@ -184,5 +185,12 @@ color:white!important
  }
  .testing3{
   padding-bottom:20px;
+ }
+
+ .summitcard, .evocard, .maxcard, .centralcard{
+  margin-top: 75px;
+ }
+ .toolcard{
+  margin-top:-40px
  }
 }

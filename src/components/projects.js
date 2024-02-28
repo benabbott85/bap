@@ -17,7 +17,7 @@ function Projects (){
         <Row >
             <Col lg={4}>
         <div>
-            <div className="testing">
+            <div className="testing modcard">
   <Card >
  
     <CardImg
@@ -52,7 +52,7 @@ function Projects (){
 </Col>
 {/* <Col></Col> */}
 <Col lg={4}>
-        <div className="testing2">
+        <div className="testing2 summitcard">
   <Card inverse>
     <CardImg
       alt="Card image cap"
@@ -83,7 +83,7 @@ function Projects (){
 </Col>
 <Col lg={4}>
         <div>
-            <div className="testing3">
+            <div className="testing3 evocard">
   <Card inverse>
     <CardImg
       alt="Card image cap"
@@ -120,7 +120,7 @@ function Projects (){
 <Row >
             <Col lg={4}>
         <div>
-            <div className="testing">
+            <div className="testing toolcard">
   <Card inverse>
     <CardImg
       alt="Card image cap"
@@ -154,7 +154,7 @@ function Projects (){
 </Col>
 
 <Col lg={4}>
-        <div className="testing2">
+        <div className="testing2 maxcard">
   <Card inverse>
     <CardImg
       alt="Card image cap"
@@ -184,7 +184,7 @@ function Projects (){
 </div>
 </Col>
 <Col lg={4}>
-        <div className="testing3">
+        <div className="testing3 centralcard">
   <Card inverse>
     <CardImg
       alt="Card image cap"
