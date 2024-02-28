@@ -5,8 +5,9 @@ import { IoSchoolOutline } from "react-icons/io5"
 function timeline(){
     return(
         <>
+        <div className="break"></div>
         <h3 className="career">My Career and Education in Tech</h3>
-        <VerticalTimeline>
+        <VerticalTimeline className='time'>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{  background: '#219cee', color: '#fff', backgroundCover: 'cover' }}
@@ -43,7 +44,7 @@ function timeline(){
     <div className="time">
     <h4 className="vertical-timeline-element-title ">Web Designer</h4>
     <h5 className="vertical-timeline-element-subtitle">Your Web Pro</h5>
-    <h6 className="vertical-timeline-element-subtitle">Contract</h6>
+    {/* <h6 className="vertical-timeline-element-subtitle">Contract</h6> */}
   </div>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -53,28 +54,16 @@ function timeline(){
     iconStyle={{ color: '#fff' }}
     icon={<FaBriefcase />}
   >
-    <h4 className="vertical-timeline-element-title">Full Stack Web Development Teaching Assistant</h4>
+    <h4 className="vertical-timeline-element-title">Senior Full Stack Web Development Tutor/Teaching Assistant</h4>
     <h5 className="vertical-timeline-element-subtitle">Trilogy Education Services</h5>
     {/* <p>
       User Experience, Visual Design
     </p> */}
   </VerticalTimelineElement>
+  
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     contentStyle={{  background: '#000305', color: '#fff', backgroundCover: 'cover' }}
-    date="April 2020 - December 2021"
-    iconStyle={{  color: '#fff' }}
-    icon={<FaBriefcase />}
-  >
-    <h4 className="vertical-timeline-element-title">Senior Full Stack Web Development Tutor</h4>
-    <h5 className="vertical-timeline-element-subtitle">Trilogy Education Services</h5>
-    {/* <p>
-      Strategy, Social Media
-    </p> */}
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    contentStyle={{  background: '#219cee', color: '#fff', backgroundCover: 'cover' }}
     date="December 2019 - March 2020"
     iconStyle={{  color: '#fff' }}
     icon={<FaSchool />}
@@ -87,7 +76,7 @@ function timeline(){
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    contentStyle={{  background: '#000305', color: '#fff', backgroundCover: 'cover' }}
+    contentStyle={{  background: '#219cee', color: '#fff', backgroundCover: 'cover' }}
     date="2006 - 2010"
     iconStyle={{ color: '#fff' }}
     icon={<FaSchool />}
@@ -98,6 +87,7 @@ function timeline(){
   </VerticalTimelineElement>
   
 </VerticalTimeline>
+<div className="break"></div>
         </>
     )
 }

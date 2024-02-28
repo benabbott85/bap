@@ -5,11 +5,13 @@ import Projects from './components/projects'
 import Timeline from './components/timeline'
 import About from './components/about'
 import Footer from './components/footer'
+import Flip from './components/multipleflip'
 function App() {
   return (
     <div className="App">
        <h1 class="row justify-content-start me"><img src={logo} className="me" alt="logo" /></h1>
       <Animate/>
+      {/* <Flip/> */}
       <Projects/>
       <Timeline/>
       <About/>

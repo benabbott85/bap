@@ -28,6 +28,40 @@
   color: #61dafb;
 }
 
+.back{
+  padding: 25px;
+  background-color: transparent;
+  color: white;
+  height:250px;
+  width:500px;
+}
+.car-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  grid-row: 1 / span 4;
+}
+.car-card {
+  width: 1300px;
+  height: 200px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.5s;
+}
+.card-back {
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.car-card img {
+  max-width: 100%;
+  max-height: 100%;
+}
 .me{
 width:75px;
 margin-left: 20px;
@@ -37,7 +71,6 @@ margin-left: 20px;
   text-align:center;
   
 }
-
 
 body{
   background: rgb(0,3,5);
@@ -51,12 +84,12 @@ color:white!important
 }
 
 .testing2{
-  box-shadow: 5px 5px 5px 5px #000305;
+  box-shadow: 5px 0px 5px 5px #000305;
   
 }
 
 .testing3{
-  box-shadow: 5px 5px 5px 5px white;
+  box-shadow: 5px 0px 5px 5px white;
   
 }
 
@@ -98,14 +131,15 @@ color:white!important
   
 }
 .break{
-  margin-top:25px;
+  margin-top:125px;
 }
 
 .ctoverlay{
   padding:0.5rem;
   background: black;
   color:white!important;
-  margin-top:100px;
+  margin-top:255px;
+  width:400px;
 }
 
 .sitebtn{

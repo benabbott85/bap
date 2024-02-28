@@ -7,17 +7,19 @@ import Evo from '../assets/evops.jpg'
 import Max from '../assets/maxps.jpg'
 import Tool from '../assets/tool.jpg'
 import Central from '../assets/central2.jpg'
+// import { FlipCard } from "react-flipme"
 function Projects (){
     return(
         <>
-<h2 className="design">My Design Work</h2>
+<h2 className="design">My Professional Design Work</h2>
 
         <Container>
         <Row >
             <Col lg={4}>
         <div>
             <div className="testing">
-  <Card inverse>
+  <Card >
+ 
     <CardImg
       alt="Card image cap"
       src={Mod}
