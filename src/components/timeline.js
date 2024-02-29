@@ -7,6 +7,7 @@ function timeline(){
         <>
         <div className="break"></div>
         <h3 className="career">My Career and Education in Tech</h3>
+        <div class=""></div>
         <VerticalTimeline className='time'>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"

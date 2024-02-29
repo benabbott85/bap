@@ -151,6 +151,10 @@ color:white!important
   /* padding:8px; */
 }
 
+.sitebtn:hover{
+  background:red;
+  box-shadow: 5px 0px 5px 5px white;
+}
 
 
 
@@ -190,7 +194,7 @@ color:white!important
 
  .summitcard, .evocard, .maxcard, .centralcard{
   margin-top: 95px;
-  /* width:80vw; */
+ 
  }
  .toolcard{
   margin-top:-40px;
@@ -211,13 +215,17 @@ color:white!important
   .testing3{
    padding-bottom:20px;
   } */
+  .abtmedia{
+    width:60vw;
+
+  }
  
   .summitcard, .evocard, .maxcard, .centralcard{
    margin-top: 95px;
    /* width:80vw; */
   }
   .toolcard{
-   margin-top:-40px;
+   margin-top:-180px;
    /* width:82vw; */
   }
   .ctoverlay{
@@ -238,13 +246,61 @@ color:white!important
  
   .summitcard, .evocard, .maxcard, .centralcard{
    margin-top: 95px;
-   /* width:80vw; */
+   width:450px;
+   margin-left:35px;
   }
   .toolcard{
    margin-top:-40px;
+   width:450px;
+   margin-left:35px;
+  }
+  .modcard{
+    width:450px;
+    margin-left:35px;
+  }
+  .ctoverlay{
+   margin-left:30px!important;
+  }
+  .footalign{
+    margin-left:0px!important;
+  }
+  .abtmedia{
+    margin-left: 120px!important
+  }
+ }
+
+ @media screen and (max-width: 1200px) {
+  /* .testing{ */
+   /* padding-bottom: 20px;
+  }
+  .testing2{
+   padding-bottom:20px;
+  }
+  .testing3{
+   padding-bottom:20px;
+  } */
+ 
+  .summitcard, .evocard, .maxcard, .centralcard, .modcard{
+   margin-top: 95px;
+   /* width:80vw; */
+  }
+  .toolcard{
+   padding-top:5px;
    /* width:82vw; */
   }
   .ctoverlay{
-   margin-left:0px;
+   margin-left:120px;
   }
+  .abtmedia{
+    width:60vw;
+  }
+
+  .mypic{
+    width:200px;
+  }
+
+  .footalign{
+    margin-left:-150px;
+  }
+  
  }
