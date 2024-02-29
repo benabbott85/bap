@@ -135,7 +135,7 @@ color:white!important
 }
 
 .ctoverlay{
-  padding:0.5rem;
+  padding:0.50rem;
   /* background: black; */
   color:white!important;
   margin-top:255px;
@@ -148,6 +148,7 @@ color:white!important
   border: solid 2px white;
   border-radius: 5px;
   width: 250px;
+  /* padding:8px; */
 }
 
 
@@ -177,20 +178,73 @@ color:white!important
 
 
 @media screen and (max-width: 990px) {
- .testing{
-  padding-bottom: 20px;
+ /* .testing{ */
+  /* padding-bottom: 20px;
  }
  .testing2{
   padding-bottom:20px;
  }
  .testing3{
   padding-bottom:20px;
- }
+ } */
 
  .summitcard, .evocard, .maxcard, .centralcard{
-  margin-top: 75px;
+  margin-top: 95px;
+  /* width:80vw; */
  }
  .toolcard{
-  margin-top:-40px
+  margin-top:-40px;
+  /* width:82vw; */
+ }
+ .ctoverlay{
+  margin-left:120px;
  }
 }
+
+@media screen and (max-width: 442px) {
+  /* .testing{ */
+   /* padding-bottom: 20px;
+  }
+  .testing2{
+   padding-bottom:20px;
+  }
+  .testing3{
+   padding-bottom:20px;
+  } */
+ 
+  .summitcard, .evocard, .maxcard, .centralcard{
+   margin-top: 95px;
+   /* width:80vw; */
+  }
+  .toolcard{
+   margin-top:-40px;
+   /* width:82vw; */
+  }
+  .ctoverlay{
+   margin-left:0px;
+  }
+ }
+
+ @media screen and (max-width: 772px) {
+  /* .testing{ */
+   /* padding-bottom: 20px;
+  }
+  .testing2{
+   padding-bottom:20px;
+  }
+  .testing3{
+   padding-bottom:20px;
+  } */
+ 
+  .summitcard, .evocard, .maxcard, .centralcard{
+   margin-top: 95px;
+   /* width:80vw; */
+  }
+  .toolcard{
+   margin-top:-40px;
+   /* width:82vw; */
+  }
+  .ctoverlay{
+   margin-left:0px;
+  }
+ }
