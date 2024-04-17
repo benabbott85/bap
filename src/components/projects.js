@@ -7,6 +7,7 @@ import Evo from '../assets/evops.jpg'
 import Max from '../assets/maxps.jpg'
 import Tool from '../assets/tool.jpg'
 import Central from '../assets/central2.jpg'
+import Modal from './modal'
 // import { FlipCard } from "react-flipme"
 function Projects (){
     return(
@@ -180,6 +181,7 @@ function Projects (){
       </div>
     </CardImgOverlay>
   </Card>
+  
  
 </div>
 </Col>
@@ -214,7 +216,11 @@ function Projects (){
 </div>
 </Col>
 </Row>
+<Row>
+  <Modal/>
+</Row>
 </Container>
+
         </>
     )
 }

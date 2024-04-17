@@ -156,7 +156,19 @@ color:white!important
   box-shadow: 5px 0px 5px 5px white;
 }
 
+.modalbtn{
+  margin-top:120px;
+  margin-left:15px;
+  background: white;
+  color:white;
+  border: solid 2px white;
+  border-radius: 5px;
+  width: 250px;
+}
 
+.modaltext{
+  color:black
+}
 
 
 /* .testing{
@@ -291,10 +303,11 @@ color:white!important
   .ctoverlay{
    margin-left:120px;
   }
+  
   .abtmedia{
     width:60vw;
   }
-
+ 
   .mypic{
     width:200px;
   }

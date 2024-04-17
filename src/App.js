@@ -6,6 +6,7 @@ import Timeline from './components/timeline'
 import About from './components/about'
 import Footer from './components/footer'
 import Flip from './components/multipleflip'
+import Modal from './components/modal'
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       <Animate/>
       {/* <Flip/> */}
       <Projects/>
+      {/* <Modal/> */}
       <Timeline/>
       <About/>
       <Footer/>

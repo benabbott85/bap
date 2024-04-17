@@ -3,6 +3,7 @@ import {Row} from "reactstrap"
 import { FaLinkedin, FaEnvelope } from "react-icons/fa";
 // import Resume from '../assets/Ben Abbott.pdf'
 // import Resume from '../components/pdf'
+import Modal from './modal'
 const style = { color: "white", fontSize: "2.5rem" }
 function Footer (){
     return(
@@ -16,6 +17,7 @@ function Footer (){
         <a href="https://www.linkedin.com/in/ben-abbott-51394421/" target="_blank" rel="noreferrer" ><FaLinkedin style={style} className="linkedin"/></a>
         </div>
         </Row>
+        {/* <Modal/> */}
         </>
     )
 }
