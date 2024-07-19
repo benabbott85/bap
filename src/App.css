@@ -215,6 +215,9 @@ color:white!important
  .ctoverlay{
   margin-left:120px;
  }
+ .mypic{
+  width:50vw!important;
+ }
 }
 
 @media screen and (max-width: 442px) {
@@ -227,11 +230,14 @@ color:white!important
   .testing3{
    padding-bottom:20px;
   } */
-  .abtmedia{
+  /* .abtmedia{
     width:60vw;
 
-  }
- 
+  } */
+ .mypic{
+  width:40vw!important;
+  margin-left:-200px;
+ }
   .summitcard, .evocard, .maxcard, .centralcard{
    margin-top: 95px;
    /* width:80vw; */
@@ -246,7 +252,9 @@ color:white!important
  }
 
  @media screen and (max-width: 772px) {
+  
   /* .testing{ */
+
    /* padding-bottom: 20px;
   }
   .testing2{
@@ -279,6 +287,10 @@ color:white!important
   .abtmedia{
     margin-left: 120px!important
   }
+  .mypic{
+    width:50vw;
+  }
+  /* .abouttext{} */
  }
 
  @media screen and (max-width: 1200px) {
@@ -294,11 +306,15 @@ color:white!important
  
   .summitcard, .evocard, .maxcard, .centralcard, .modcard{
    margin-top: 95px;
-   /* width:80vw; */
+   width:80vw;
   }
+  .card-text{
+    margin-left:-150px;
+  }
+  
   .toolcard{
    padding-top:5px;
-   /* width:82vw; */
+   width:82vw;
   }
   .ctoverlay{
    margin-left:120px;
@@ -309,7 +325,7 @@ color:white!important
   }
  
   .mypic{
-    width:200px;
+    width:55vw!important;
   }
 
   .footalign{
