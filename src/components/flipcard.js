@@ -75,7 +75,7 @@
 
 import React, { useState } from "react";
 import ReactCardFlip from "react-card-flip";
-import {Container, Row, Col, Card, CardImg, CardImgOverlay, CardText, CardTitle} from 'reactstrap'
+import {Container, Row, Col} from 'reactstrap'
 import 'bootstrap/dist/css/bootstrap.css'
 const FlipCard = ({ img, name, description, url }) => {
   const [isFlipped, setIsFlipped] = useState(false);

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Button, Modal, ModalBody} from 'reactstrap';
 
 
 
@@ -17,7 +17,15 @@ function Modall(args) {
           {/* <ModalHeader className="modaltext" toggle={toggle}>More of My Work</ModalHeader> */}
           <ModalBody>
             <h3 className="modaltext">Western Material Handling</h3>
-            <a className="modaltext" href="https://abetterforklift.com/" target='_blank' rel="noreferrer">Visit Site</a>
+            <a className="modaltext mbtn" href="https://abetterforklift.com/" target='_blank' rel="noreferrer">Visit Site</a>
+            <h3 className="modaltext">Continental Partition Systems, LLC</h3>
+            <a className="modaltext mbtn" href="https://cps-partitions.com/" target='_blank' rel="noreferrer">Visit Site</a>
+            <h3 className="modaltext">Selimovich Transport, Inc</h3>
+            <a className="modaltext mbtn" href="https://stidenver.com/" target='_blank' rel="noreferrer">Visit Site</a>
+            <h3 className="modaltext">Quality Crafts by Deborah</h3>
+            <a className="modaltext mbtn" href="https://qualitycraftsbydeborah.net/" target='_blank' rel="noreferrer">Visit Site</a>
+            <h3 className="modaltext">US Border Movers</h3>
+            <a className="modaltext mbtn" href="https://bordermovers.com/" target='_blank' rel="noreferrer">Visit Site</a>
           </ModalBody>
           {/* <ModalFooter>
             <Button color="primary" onClick={toggle}>

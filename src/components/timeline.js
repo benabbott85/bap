@@ -1,7 +1,7 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FaBriefcase, FaSchool } from "react-icons/fa";
-import { IoSchoolOutline } from "react-icons/io5"
+// import { IoSchoolOutline } from "react-icons/io5"
 function timeline(){
     return(
         <>

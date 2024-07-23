@@ -1,5 +1,5 @@
 import React from "react"
-import {Container, Row, Col, Card, CardImg, CardImgOverlay, CardText, CardTitle} from 'reactstrap'
+import {Container, Row, Col, Card, CardImg, CardImgOverlay, CardText} from 'reactstrap'
 import 'bootstrap/dist/css/bootstrap.css'
 import Mod from '../assets/modps.jpg'
 import Summit from '../assets/summitps.jpg'

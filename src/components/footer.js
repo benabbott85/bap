@@ -3,7 +3,7 @@ import {Row} from "reactstrap"
 import { FaLinkedin, FaEnvelope } from "react-icons/fa";
 // import Resume from '../assets/Ben Abbott.pdf'
 // import Resume from '../components/pdf'
-import Modal from './modal'
+// import Modal from './modal'
 const style = { color: "white", fontSize: "2.5rem" }
 function Footer (){
     return(
