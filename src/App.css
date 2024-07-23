@@ -46,7 +46,7 @@
   width: 1300px;
   height: 200px;
   display: flex;
-  /* align-items: center; */
+
   justify-content: center;
   border-radius: 10px;
   cursor: pointer;
@@ -136,7 +136,7 @@ color:white!important
 
 .ctoverlay{
   padding:0.50rem;
-  /* background: black; */
+
   color:white!important;
   margin-top:255px;
   width:400px;
@@ -148,7 +148,7 @@ color:white!important
   border: solid 2px white;
   border-radius: 5px;
   width: 250px;
-  /* padding:8px; */
+
 }
 
 .sitebtn:hover{
@@ -171,17 +171,7 @@ color:white!important
 }
 
 
-/* .testing{
-  font-weight: bold;
-  color: red;
-  opacity:0.4;
-  /* cursor:pointer; */
-  /* margin-top:40px; */
-/* } */
-/* .testing:hover{
-  opacity:1;
-  color: transparent!important;
-} */ */
+
 
 @keyframes App-logo-spin {
   from {
@@ -194,15 +184,7 @@ color:white!important
 
 
 @media screen and (max-width: 990px) {
- /* .testing{ */
-  /* padding-bottom: 20px;
- }
- .testing2{
-  padding-bottom:20px;
- }
- .testing3{
-  padding-bottom:20px;
- } */
+
 
  .summitcard, .evocard, .maxcard, .centralcard{
   margin-top: 95px;
@@ -210,7 +192,7 @@ color:white!important
  }
  .toolcard{
   margin-top:-40px;
-  /* width:82vw; */
+
  }
  .ctoverlay{
   margin-left:120px;
@@ -221,30 +203,18 @@ color:white!important
 }
 
 @media screen and (max-width: 442px) {
-  /* .testing{ */
-   /* padding-bottom: 20px;
-  }
-  .testing2{
-   padding-bottom:20px;
-  }
-  .testing3{
-   padding-bottom:20px;
-  } */
-  /* .abtmedia{
-    width:60vw;
-
-  } */
+ 
  .mypic{
   width:40vw!important;
   margin-left:-200px;
  }
   .summitcard, .evocard, .maxcard, .centralcard{
    margin-top: 95px;
-   /* width:80vw; */
+ 
   }
   .toolcard{
    margin-top:-180px;
-   /* width:82vw; */
+  
   }
   .ctoverlay{
    margin-left:0px;
@@ -253,16 +223,7 @@ color:white!important
 
  @media screen and (max-width: 772px) {
   
-  /* .testing{ */
-
-   /* padding-bottom: 20px;
-  }
-  .testing2{
-   padding-bottom:20px;
-  }
-  .testing3{
-   padding-bottom:20px;
-  } */
+ 
  
   .summitcard, .evocard, .maxcard, .centralcard{
    margin-top: 95px;
@@ -290,19 +251,11 @@ color:white!important
   .mypic{
     width:50vw;
   }
-  /* .abouttext{} */
+
  }
 
  @media screen and (max-width: 1200px) {
-  /* .testing{ */
-   /* padding-bottom: 20px;
-  }
-  .testing2{
-   padding-bottom:20px;
-  }
-  .testing3{
-   padding-bottom:20px;
-  } */
+ 
  
   .summitcard, .evocard, .maxcard, .centralcard, .modcard{
    margin-top: 95px;
