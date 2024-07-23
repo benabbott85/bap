@@ -15,7 +15,7 @@ function Modall(args) {
         </Button>
         <Modal isOpen={modal} toggle={toggle} {...args}>
           {/* <ModalHeader className="modaltext" toggle={toggle}>More of My Work</ModalHeader> */}
-          <ModalBody>
+          <ModalBody className="modalall">
             <h3 className="modaltext">Western Material Handling</h3>
             <a className="modaltext mbtn" href="https://abetterforklift.com/" target='_blank' rel="noreferrer">Visit Site</a>
             <h3 className="modaltext">Continental Partition Systems, LLC</h3>
