@@ -13,7 +13,7 @@ function timeline(){
     className="vertical-timeline-element--work"
     contentStyle={{  background: '#219cee', color: '#fff', backgroundCover: 'cover' }}
     // contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2021 - present"
+    date="December 2021 - July 2024"
     iconStyle={{  color: '#fff' }}
     icon={<FaBriefcase />}
   >
