@@ -19,7 +19,7 @@ function Projects (){
             <Col lg={4}>
         <div>
             <div className="testing modcard">
-  <Card >
+  <Card className='modfade'>
  
     <CardImg
       alt="Card image cap"
@@ -54,7 +54,7 @@ function Projects (){
 {/* <Col></Col> */}
 <Col lg={4}>
         <div className="testing2 summitcard">
-  <Card inverse>
+  <Card className='modfade' inverse>
     <CardImg
       alt="Card image cap"
       src={Summit}
@@ -85,7 +85,7 @@ function Projects (){
 <Col lg={4}>
         <div>
             <div className="testing3 evocard">
-  <Card inverse>
+  <Card className='modfade' inverse>
     <CardImg
       alt="Card image cap"
       src={Evo}
@@ -122,7 +122,7 @@ function Projects (){
             <Col lg={4}>
         <div>
             <div className="testing toolcard">
-  <Card inverse>
+  <Card className='modfade' inverse>
     <CardImg
       alt="Card image cap"
       src={Tool}
@@ -156,7 +156,7 @@ function Projects (){
 
 <Col lg={4}>
         <div className="testing2 maxcard">
-  <Card inverse>
+  <Card className='modfade' inverse>
     <CardImg
       alt="Card image cap"
       src={Max}
@@ -187,7 +187,7 @@ function Projects (){
 </Col>
 <Col lg={4}>
         <div className="testing3 centralcard">
-  <Card inverse>
+  <Card className='modfade' inverse>
     <CardImg
       alt="Card image cap"
       src={Central}

@@ -183,8 +183,18 @@ color:white!important;
 color:white!important */
 }
 
+.modfade{
+  animation:fade-in 3s;
+}
 
-
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
 
 @keyframes App-logo-spin {
   from {
