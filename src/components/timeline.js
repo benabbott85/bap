@@ -9,6 +9,20 @@ function timeline(){
         <h3 className="career">My Career and Education in Tech</h3>
         <div class=""></div>
         <VerticalTimeline className='time'>
+            <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{  background: '#219cee', color: '#fff', backgroundCover: 'cover' }}
+    // contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    date="November 2024 - Present"
+    iconStyle={{  color: '#fff' }}
+    icon={<FaBriefcase />}
+  >
+    <h3 className="vertical-timeline-element-title">Senior Web Developer</h3>
+    <h4 className="vertical-timeline-element-subtitle">Red Rock Investor Technology</h4>
+    {/* <p>
+      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+    </p> */}
+  </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{  background: '#219cee', color: '#fff', backgroundCover: 'cover' }}

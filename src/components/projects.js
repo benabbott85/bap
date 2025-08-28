@@ -5,7 +5,7 @@ import Mod from '../assets/modps.jpg'
 import Summit from '../assets/summitps.jpg'
 import Evo from '../assets/evops.jpg'
 import Max from '../assets/maxps.jpg'
-import Tool from '../assets/tool.jpg'
+import Kiwi from '../assets/kiwi.png'
 import Central from '../assets/central2.jpg'
 import Modal from './modal'
 // import { FlipCard } from "react-flipme"
@@ -125,7 +125,7 @@ function Projects (){
   <Card className='modfade delay3' inverse>
     <CardImg
       alt="Card image cap"
-      src={Tool}
+      src={Kiwi}
       style={{
         height: 270,
         // opacity: 0.4
@@ -140,11 +140,11 @@ function Projects (){
       </CardTitle> */}
       <div className="ctoverlay">
       <CardText className="ctitle">
-      <h3>Tool Country</h3>
+      <h3>Kiwis Mulligan</h3>
       </CardText>
       <CardText className="ctitle">
         <small className="text-muted">
-          <a href="https://www.toolcountry.com/" target='_blank' rel="noreferrer"> <button className='sitebtn'>Visit Site</button></a>
+          <a href="https://www.kiwismulligan.com/" target='_blank' rel="noreferrer"> <button className='sitebtn'>Visit Site</button></a>
         </small>
       </CardText>
       </div>
