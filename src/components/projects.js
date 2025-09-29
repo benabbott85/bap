@@ -3,7 +3,7 @@ import {Container, Row, Col, Card, CardImg, CardImgOverlay, CardText} from 'reac
 import 'bootstrap/dist/css/bootstrap.css'
 import Mod from '../assets/modps.jpg'
 import Summit from '../assets/summitps.jpg'
-import Evo from '../assets/evops.jpg'
+import Evo from '../assets/cps.jpg'
 import Max from '../assets/maxps.jpg'
 import Kiwi from '../assets/kiwi.png'
 import Central from '../assets/central2.jpg'
@@ -103,11 +103,11 @@ function Projects (){
       </CardTitle> */}
       <div className="ctoverlay">
       <CardText className="ctitle">
-      <h3>Evolution Landscape</h3>
+      <h3>Continental Partition Systems</h3>
       </CardText>
       <CardText className="ctitle">
         <small className="text-muted">
-          <a href="https://www.evolution-landscape.com/" target='_blank' rel="noreferrer"> <button className='sitebtn'>Visit Site</button></a>
+          <a href="https://cps-partitions.com/" target='_blank' rel="noreferrer"> <button className='sitebtn'>Visit Site</button></a>
         </small>
       </CardText>
       </div>
